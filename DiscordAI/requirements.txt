@@ -1,4 +1,6 @@
 discord.py>=2.3.0
-openai>=1.0.0
+open Edith
+open EFI
+ai>=1.0.0
 google-generativeai>=0.3.0
 python-dotenv>=1.0.0
