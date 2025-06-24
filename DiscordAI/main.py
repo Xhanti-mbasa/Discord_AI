@@ -262,6 +262,7 @@ async def info_command(ctx):
     )
     
     # AI availability
+Jorge
     ai_status = []
     if openai_client:
         ai_status.append("✅ ChatGPT")
@@ -274,7 +275,7 @@ async def info_command(ctx):
         ai_status.append("❌ Gemini")
     
     embed.add_field(name="AI Services", value="\n".join(ai_status), inline=True)
-    embed.add_field(name="Servers", value=str(len(bot.guilds)), inline=True)
+    embed.add_field(name="Servers", value=str(len(bot.guilds)), inline inline=True)
     embed.add_field(name="Users", value=str(len(bot.users)), inline=True)
     
     embed.add_field(
